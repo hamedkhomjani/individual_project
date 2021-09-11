@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
-import * as GoIcons from 'react-icons/go';
-import * as CgIcons from 'react-icons/cg';
+
+import * as FaIcons from 'react-icons/fa';
+
 import { Link } from 'react-router-dom';
 import { SidebarData } from './SidebarData';
 import './Navbar.css';
 import { IconContext } from 'react-icons';
+import { ReactComponent as CloseIcon } from '../../../assets/icons/close.svg';
 
 function Navbar() {
   const [sidebar, setSidebar] = useState(false);
@@ -16,14 +18,14 @@ function Navbar() {
       <IconContext.Provider value={{ color: '#fff' }}>
         <div className='navbar'>
           <Link to='#' className='menu-bars'>
-            <GoIcons.GoThreeBars onClick={showSidebar} />
+            <FaIcons.FaBars onClick={showSidebar} />
           </Link>
         </div>
         <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
           <ul className='nav-menu-items' onClick={showSidebar}>
             <li className='navbar-toggle'>
               <Link to='#' className='menu-bars'>
-                <CgIcons.CgClose />
+                <CloseIcon />
               </Link>
             </li>
             {SidebarData.map((item, index) => {
