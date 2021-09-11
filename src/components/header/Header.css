@@ -1,0 +1,7 @@
+.header-container {
+    background: linear-gradient(#FF6528, #702A12);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 56px;
+}

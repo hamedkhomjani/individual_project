@@ -1,0 +1,4 @@
+.landing-container {
+    background-color: brown;
+    width: calc(100% - 56px);
+}
