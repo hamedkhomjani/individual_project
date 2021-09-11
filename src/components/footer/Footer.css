@@ -1,5 +1,15 @@
 .footer-container {
     height: 25px;
-    background-color: aquamarine;
+    letter-spacing: 6px;
+    background: linear-gradient(90deg, #ea5c2e, #702a12);
+    color: #faf3d0;
+    font-size: smaller;
+    display: flex;
+    align-items: center;
+}
 
+.footer-container a {
+    text-decoration: none;
+    color: #F3C82C;
+    padding-left: 18px;
 }
