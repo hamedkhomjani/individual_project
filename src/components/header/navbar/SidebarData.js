@@ -7,21 +7,22 @@ export const SidebarData = [
   {
     title: 'Home',
     path: '/',
-    cName: 'nav-text'
+    cName: 'nav-text',
+    exact: true
   },
   {
     title: 'Gallery',
-    path: '/reports',
+    path: '/gallery',
     cName: 'nav-text'
   },
   {
     title: 'Videos',
-    path: '/products',
+    path: '/videos',
     cName: 'nav-text'
   },
   {
     title: 'About',
-    path: '/team',
+    path: '/about',
     cName: 'nav-text'
   },
 ];
