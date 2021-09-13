@@ -1,0 +1,23 @@
+.about-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FAF3D0;
+}
+
+.about-container p {
+    width: 60%;
+}
+
+.about-socials {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.about-learn-more {
+    margin-top: 5rem;
+    font-size: large;
+}
