@@ -4,7 +4,7 @@ import About from '../Pages/About/About';
 import Gallery from '../Pages/gallery/Gallery';
 import HomePage from '../Pages/homePage/HomePage';
 import Videos from '../Pages/videos/Videos';
-import logo from '../../assets/logo_CarArt.png'
+import logo from '../../assets/images/logo_CarArt.png'
 
 import './Landing.css'
 

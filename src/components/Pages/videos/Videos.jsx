@@ -19,7 +19,6 @@ function Videos() {
             </p>
             <div className='videos'>
                 {VideosMockData.map((video) => <VideoCart item={video} />)}
-
             </div>
         </div>
     )

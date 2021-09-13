@@ -14,9 +14,7 @@ function App() {
           <Landing />
           </BrowserRouter>
         </div>
-        <div className='second-row'>
           <Footer />
-        </div>
     </div>
   );
 }

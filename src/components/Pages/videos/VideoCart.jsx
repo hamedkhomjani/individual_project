@@ -4,9 +4,9 @@ import './Videos.css'
 
 function VideoCart(props) {
     return (
-        <div className='vide-cart-container'>
-            <video controls loop height="150">
-                <source src={`../../../assets/videos/${props.item.video}`} type="video/mp4"/>
+        <div className='video-cart-container'>
+            <video controls loop width='250'>
+                <source src={`${process.env.PUBLIC_URL}/assets/videos/${props.item.video}`} type="video/mp4"/>
             </video>
             <p>{props.item.introduction}</p>
         </div>

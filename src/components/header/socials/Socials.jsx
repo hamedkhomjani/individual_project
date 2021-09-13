@@ -4,7 +4,6 @@ import { ReactComponent as FacebookIcon } from '../../../assets/icons/facebook.s
 import { ReactComponent as InstgramIcon } from '../../../assets/icons/instagram.svg';
 import { ReactComponent as TwitterIcon } from '../../../assets/icons/twitter.svg';
 
-
 import './Socials.css'
 function Channels() {
     return (
