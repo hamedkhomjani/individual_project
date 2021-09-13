@@ -1,4 +1,15 @@
 .landing-container {
-    background-color: brown;
+    background-color: #F3642C;
     width: calc(100% - 56px);
+}
+
+.logo {
+    width: 65px;
+    height: auto;
+    margin-top: 30px;
+    margin-left: 3rem;
+}
+
+#logo-container {
+    margin-bottom: 30px;
 }

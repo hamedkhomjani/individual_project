@@ -4,12 +4,16 @@ import About from '../Pages/About/About';
 import Gallery from '../Pages/gallery/Gallery';
 import HomePage from '../Pages/homePage/HomePage';
 import Videos from '../Pages/videos/Videos';
+import logo from '../../assets/logo_CarArt.png'
 
 import './Landing.css'
 
 function Landing() {
     return (
         <div className='landing-container'>
+             <div id='logo-container'>
+                <img src={logo} alt="logo" className="logo" />
+            </div>
             <Switch>
                 <Route exact path='/' component={HomePage}></Route>
                 <Route path='/gallery' component={Gallery}></Route>
