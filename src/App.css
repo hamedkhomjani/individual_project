@@ -6,4 +6,5 @@
 .first-row {
   display: flex;
   flex-direction: row-reverse;
+  background-color: #F3642C;
 }
