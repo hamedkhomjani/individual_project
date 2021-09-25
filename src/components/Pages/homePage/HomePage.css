@@ -22,7 +22,8 @@
     color: #FFFDF5;
     border: none;
     outline: none;
-    padding: 9px 13px;
+    padding: 9px 18px;
+    border-radius: 10px;
 }
 
 .home-car-image {
